@@ -6,8 +6,7 @@ def abrir_archivo():
     edad = []
     with open('datos.csv', newline='') as File:
         reader = csv.reader(File)
-        for row in reader:
-            edad.append(int(row[0]))
+        edad = [int(edad[0]) for edad in reader]
     return edad
 
 
