@@ -24,8 +24,7 @@ def lanzamiento_dado():
 
 def mostrar_Resultado(maximo, movimiento):
     print(f"Cantidad de movimientos antes de caer en bancarrota: {movimiento}")
-    print(
-        f"Cantidad de dinero máxima alcanzada antes de caer en bancarrota: {maximo}")
+    print(f"Cantidad de dinero máxima alcanzada antes de caer en bancarrota: {maximo}")
 
 
 def main():
